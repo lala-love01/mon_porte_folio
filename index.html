@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Personnel</title>
+    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête de la page avec la navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#accueil">Dieula ALCIMA</a>
+            </div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="section">
+            <div class="container">
+                <h1>Bonjour, je suis Dieula</h1>
+                <p>Développeuse web en formation, animée par la passion de concevoir des sites modernes, interactifs et esthétiques.</p>
+                <a href="#projets" class="cta-button">Voir mes projets</a>
+            </div>
+            <div class="about-image1">
+                 <img src="IMG_3153.JPG" alt="Photo de profil">
+            </div>
+        </section>
+        
+
+        <!-- Section À Propos -->
+        <section id="a-propos" class="section bg-light">
+            <div class="container">
+                <h2>À propos</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Je m'appelle Dieula ALCIMA, passionné par la création de sites web modernes et interactifs.</p>
+                        <p>Je suis actuellement étudiante en développement web, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                        <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                        <a href="CVDieula.pdf" class="cta-button">Télécharger mon CV</a>
+                    </div>
+                    <div class="about-image">
+                        <!-- Remplacez le lien par le chemin de votre photo -->
+                        <img src="lala.jpg" alt="Photo de profil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="section">
+            <div class="container">
+                <h2>Mes Compétences</h2>
+                <div class="skills-container">
+                    <!-- Carte Soft Skills -->
+                    <div class="skill-card">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-item">
+                            <p>Gestion de projet</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Résolution de problème</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Adaptabilité</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carte Hard Skills -->
+                    <div class="skill-card">
+                        <h3>Hard Skills</h3>
+                        <div class="skill-item">
+                            <p>HTML</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                         <div class="skill-item">
+                            <p>VS Code</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="section bg-light">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <p class="project-description">Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                        <p class="project-tags">#html, #css, #js</p>
+                        <a href="#" class="cta-button">Voir</a>
+                    </div>
+                    <div class="project-card">
+                        <p class="project-description">Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                        <p class="project-tags">#html, #css, #js</p>
+                        <a href="#" class="cta-button">Voir</a>
+                    </div>
+                    <div class="project-card">
+                        <p class="project-description">Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                        <p class="project-tags">#html, #css, #js</p>
+                        <a href="#" class="cta-button">Voir</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Vous avez un projet en tête ?<br>N'hésitez pas à me <span class="highlight">contacter</span></h2>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="prenom">Votre prénom</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">Votre nom</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Votre sujet</label>
+                        <input type="text" id="sujet" name="sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="7" placeholder="Écrivez votre message ici !!" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Envoyer</button>
+                </form>
+                <div id="form-message"></div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Créons ensemble quelque chose d'<span class="highlight">extraordinaire</span> !</h2>
+                
+                <!-- Coordonnées cliquables -->
+                <div class="contact-info">
+                    <a href="tel:+50932973673" class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Appelez-moi</h4>
+                            <p>+509 32 97 36 73</p>
+                        </div>
+                    </a>
+                    
+                    <a href="mailto:dieulaalcima10@gmail.com.com?subject=Nouveau projet web&body=Bonjour, j'aimerais discuter d'un projet..." class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Écrivez-moi</h4>
+                            <p>dieulaalcima10@.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://wa.me/+50932973673?text=Bonjour, je suis intéressé par vos services de développement web" target="_blank" class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>Chat instantané</p>
+                        </div>
+                    </a>
+                </div>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container footer-content">
+            <p>Designed by Dieula ALCIMA with HTML CSS JS</p>
+            <p>Tous droits réservés - 2025</p>
+        </div>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
